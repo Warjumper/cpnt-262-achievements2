@@ -13,3 +13,5 @@ document.getElementById("swordArray").innerHTML = commaSpace;
 
 // For testing
 console.log('My favorite swords are the', commaSpace);
+console.log(swordArray.join(', '))
+console.log(swordArray.join(' + '))
