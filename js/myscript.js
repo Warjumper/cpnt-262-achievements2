@@ -20,26 +20,26 @@ console.log(swordArray.toString().replace("Rapier", "and Rapier"));
 
 // For testing
 
-// console.log('My favorite swords are the', commaSpace);
-// console.log(swordList.toString().split())
-// console.log(swordList.join(':').split(':'))
-// console.log(swordList.join(' + '))
+console.log('My favorite swords are the', commaSpace);
+console.log(swordArray.toString().split())
+console.log(swordArray.join(':').split(':'))
+console.log(swordArray.join(' + '))
 
-// for(i = 0; i < swordList.length; i++){
-//     console.log("Sword" , i, "is", swordList[i]);
-//     if(swordList[i] == "Rapier"){
-//       console.log("and Rapier");
-//     }
-// }
+for(i = 0; i < swordArray.length; i++){
+    console.log("Sword" , i, "is", swordArray[i]);
+    if(swordArray[i] == "Rapier"){
+      console.log("and Rapier");
+    }
+}
 
-// let word = "swords";
+let word = "swords";
 
-// for(i = 0; i < word.length; i++){
-//     console.log(word[i]);
-// }
+for(i = 0; i < word.length; i++){
+    console.log(word[i]);
+}
 
-// for(x of swordList){
-//   console.log(x);
-// }
+for(x of swordArray){
+  console.log(x);
+}
  
 // I have confused myself.
