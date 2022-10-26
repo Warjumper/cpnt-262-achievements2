@@ -1,0 +1,20 @@
+* {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: antiquewhite;
+}
+
+h1 {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 80px;
+}
+
+body {
+  background-color: #555;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+}
